@@ -1,0 +1,6 @@
+bus:
+  device: can0
+  #device: /dev/pcan32
+sync:
+  interval_ms: 10
+  overflow: 0

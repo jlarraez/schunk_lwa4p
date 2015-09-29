@@ -1,0 +1,24 @@
+
+name: arm
+
+defaults:
+  eds_pkg: schunk_lwa4p
+  eds_file: "config/Schunk_0_63.dcf"
+  
+#pos_unit_factor: 1000000.0
+#vel_unit_factor: 1000000.0
+nodes:
+  - name: arm_1_joint
+    id: 3
+  - name: arm_2_joint
+    id: 4
+  - name: arm_3_joint
+    id: 5
+  - name: arm_4_joint
+    id: 6
+  - name: arm_5_joint
+    id: 7
+  - name: arm_6_joint
+    id: 8
+  - name: pg70_finger_left_joint
+    id: 12
